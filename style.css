@@ -1,12 +1,18 @@
 body {
   background-color: #d9b38c;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
+/* COMPANY NAME */
 
 h1 {
   background-color: #3bb9ff;
   border: 4px solid #1589ff;
   border-radius: 4px;
   padding: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
 }
 
 h3 {
@@ -14,6 +20,14 @@ h3 {
   padding: 10px 5px 3px 20px;
 }
 
+/* COMPANY SLOGAN */
+
+#slogan {
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  font-style: italic;
+}
 img {
   margin: 0 0 20px 0;
 }
@@ -24,11 +38,9 @@ td {
 
 .title {
   border-radius: 5px 5px 0 0;
+  font-weight: 300;
 }
 
-footer {
-  background-color: lightgrey;
-}
 
 #ingredients {
   background-color: #f9f9f9;
@@ -50,3 +62,8 @@ footer {
   border-radius: 5px;
 }
 
+/* FOOTER DETAILS */
+
+footer {
+  background-color: lightgrey;
+}
